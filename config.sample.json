@@ -1,0 +1,26 @@
+{
+  "feishu": {
+    "appId": "cli_xxxxxxxxxxxxxxxx",
+    "appSecret": "<your-feishu-app-secret>",
+    "apiBase": "https://open.feishu.cn"
+  },
+  "ad": {
+    "domain": "EXAMPLE.COM",
+    "upnSuffix": "@EXAMPLE.COM",
+    "syncRootOu": "OU=FeishuSync,DC=example,DC=com",
+    "archiveOu": "OU=FeishuArchive,DC=example,DC=com"
+  },
+  "user": {
+    "defaultPassword": "ChangeMe!2024",
+    "passwordNeverExpires": true,
+    "changePasswordAtLogon": true,
+    "enabledOnCreate": true
+  },
+  "dept": {
+    "inactiveOuPrefix": "[Disabled]",
+    "storeFeishuIdIn": "description"
+  },
+  "sync": {
+    "logRetentionDays": 30
+  }
+}
